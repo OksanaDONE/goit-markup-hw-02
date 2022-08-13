@@ -1,0 +1,214 @@
+.link {text-decoration: none;}
+.list {list-style: none;}
+img {
+display: block;}
+button {
+font-family: inherit;
+cursor: pointer;}
+
+
+
+/* 'Roboto', sans-serif; */
+/* колір акценту 
+#2196F3
+
+головний колір тексту #212121
+другорядний колір тексту #757575
+
+*/
+
+:root {
+    --primary-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --text-color-white : #FFFFFF;
+    --accent-color: #2196F3;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+}
+
+/* стилізація хедера */
+.page-header {
+    background-color: var(--text-color-white);
+}
+
+.link-logo {
+color:#000000;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.link-logo >span {color: var(--accent-color);}
+.link-logo:hover, 
+.link-logo:focus {color:var(--accent-color);}
+
+.navigation-link {
+color: var(--primary-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;}
+
+.navigation-link:hover, 
+.navigation-link:focus {color: var(--accent-color);}
+
+.list .navigation-link.current {color: var(--accent-color);}
+
+.contact-us {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.contact-us .mail-to.current {color: var(--accent-color);}
+
+.mail-to, 
+.tel-to {color: var(--secondary-color);}
+
+.mail-to, .tel-to:hover,
+.mail-to, .tel-to:focus {color: var(--accent-color);}
+
+/* заголовок та кнопка */
+.title {background-color:  #2F303A;;}
+.title-main {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--text-color-white);
+}
+
+.button-main {
+background-color: var(--accent-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+color: var(--text-color-white);
+}
+.button-main:hover,
+.button-main:focus {color: var(#188CE8);}
+
+/* стилізація мейн наші особливості */
+
+.specialty-secondary {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-color);
+}
+.specialty-tyext {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+/* стилізація наша команда */
+.about-team {background: #F5F4FA;}
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-color);
+}
+
+.team-position {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+
+
+
+/* футер */
+
+
+.about-contacts {background: #2F303A;
+}
+.liogo-footer {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-color-white);
+    }
+
+.liogo-footer >span {color: var(--accent-color);}
+.liogo-footer:hover,
+.liogo-footer:focus { color: var(--accent-color);}
+
+.our-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.7;
+    letter-spacing: 0.03em; 
+    color: var(--text-color-white);}
+
+    .our-address:hover,
+    .our-address:focus {color: var(--accent-color);}
+
+    .our-mail:hover,
+    .our-mail:focus { color: var(--accent-color);}
+    .our-tel:hover,
+    .our-tel:focus {color: var(--accent-color);}
+
+    .our-mail,
+    .our-tel {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7x;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+
+    /* стилізація портфоліо */
+
+    .portfolio { 
+        background-color:  #F5F5F5;
+    }
+.button-filter:hover,
+.button-filter:focus {color: var(--accent-color);}
+
+.button-filter {
+background: #F5F4FA
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+;
+}
+.portfolio-elements {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-color);
+}
+.portfolio-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.86;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
